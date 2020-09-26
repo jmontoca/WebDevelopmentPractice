@@ -1,0 +1,113 @@
+/* Create your test CSS here */
+
+/*
+body {
+    background-color: darkturquoise;
+}
+
+p {
+    background-color: pink;
+    color: black;
+    font-size: 20px;
+  }
+
+.second {
+    background-color: black;
+    color: pink;
+    font-size: 30px;
+}  
+
+.second span {
+    color: white;
+    background-color: orange;
+    border: none;
+}
+*/
+
+/*Default styling for the body*/
+/*.........................................*/
+body {
+    background-color: darkturquoise;
+}
+
+/*Special case ruling for the body*/
+/*.........................................*/
+@media (max-width: 50em) {
+    body {
+        background-color: teal;
+    }
+}
+/*Rule set for the heading of the webpage*/
+/*.........................................*/
+header {
+    width: auto;
+    height: 100px;
+    color: purple;
+    border: thick ridge purple;
+    background-color: honeydew;
+}
+
+.intro {
+    margin: 25px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.boxa {
+    margin: 40px;
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+}
+
+.boxb {
+    width: 100px;
+    height: 100px;
+    background-color: springgreen;
+    transform: translate(50px, 50%) rotate(.8turn);
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+a:link {
+    color: green;
+}
+
+.manythings
+{
+    background-color: hotpink;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+#onething {
+    background-color: orange;
+    color: purple;
+    font-size: 15px;
+}
+
+* {
+    font-weight: bold;
+    margin: 0%;
+}
+
+.box {
+    background-color: yellowgreen;
+}
+
+.box p {
+    background-color: lightgreen;
+}
+
+.box p:first-child {
+    background-color: lime;
+}
+
+h1, h2, .intro {
+    background-color: honeydew;
+}
